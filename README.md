@@ -20,8 +20,10 @@ configuration. Changes must reach that branch to update the public website.
 
 Experience is based on the owner's supplied résumé. Featured-project source
 links may require repository access; do not describe them as public unless
-visibility has been verified. Display and identity artwork are illustrations,
-not screenshots. Archived project images are original site assets.
+visibility has been verified. Pixbyt images in `images/projects/` are optimized,
+public-safe captures of the local Studio sample prototype, not the original
+Go/HTMX app, live data, or hardware output. Stockbear's identity artwork is an
+illustration, not a screenshot. Archived project images are original site assets.
 
 Pixbyt's agent-assisted development workflow is distinct from its implemented
 applet-management capabilities. Only link deployments as working demos after
