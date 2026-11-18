@@ -46,6 +46,9 @@ Pixbyt Studio's public guest sample workshop is available at
 https://pixbyt-studio.vercel.app/. Guest previews/configuration/review/export do
 not imply autonomous agents, live feeds, or physical device delivery. Explicit
 GitHub bundle saves require a scoped token; the source repository remains private.
+The Pixbyt case study links to the caption-led walkthrough at
+https://pixbyt-studio.vercel.app/#/demo. Keep this stable player route rather than
+hosting a duplicate video or linking an internal media filename.
 
 Pixbyt's agent-assisted development workflow is distinct from its implemented
 applet-management capabilities. Only link deployments as working demos after
