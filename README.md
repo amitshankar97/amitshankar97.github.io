@@ -38,18 +38,28 @@ configuration. Changes must reach that branch to update the public website.
 Experience is based on the owner's supplied résumé. Featured-project source
 links may require repository access; do not describe them as public unless
 visibility has been verified. Pixbyt images in `images/projects/` are optimized,
-public-safe captures of the local Studio sample prototype, not the original
-Go/HTMX app, live data, or hardware output. Stockbear images are authentic public
+public-safe crops of the current Studio homepage, including its rendered WSDOT
+ferry preview with sample data—not live departures, AI-generation evidence, or
+hardware output. Studio is distinct from the original Go/HTMX/Postgres app.
+Stockbear images are authentic public
 production captures of deterministic synthetic examples, not market data or
 investment advice. Archived project images are original site assets.
 
-Pixbyt Studio's public guest sample workshop is available at
-https://pixbyt-studio.vercel.app/. Guest previews/configuration/review/export do
-not imply autonomous agents, live feeds, or physical device delivery. Explicit
-GitHub bundle saves require a scoped token; the source repository remains private.
-The Pixbyt case study links to the caption-led walkthrough at
-https://pixbyt-studio.vercel.app/#/demo. Keep this stable player route rather than
-hosting a duplicate video or linking an internal media filename.
+Pixbyt Studio is available at https://pixbyt-studio.vercel.app/. It implements
+BYOK model generation, actual isolated Sandbox/Pixlet rendering, model image
+critique with a shared two-repair budget, exact-revision human approval, and
+personal Tidbyt image-push paths. Manual-source rendering needs no AI key or
+signup. Projects are browser-local with exportable backups; generated applets
+are offline, without hosted scheduling or live feeds. The older guest workshop's
+explicit GitHub bundle save is separate from project storage, not automatic sync.
+The source repository remains private.
+
+The Pixbyt case study links to the captioned walkthrough at
+https://pixbyt-studio.vercel.app/#/demo for a look at applet source and rendering.
+Keep this stable player route rather than hosting a duplicate or linking an
+internal media filename. Public rendering/editing/validation/approval have been
+independently exercised; unit/mock coverage of paid-model and device paths is
+not proof of paid inference or physical delivery with user credentials.
 
 Stockbear's public synthetic demo is https://stockbear.vercel.app/. All displayed
 prices, volumes, dates, and analytics are generated examples. Hosted personal
@@ -57,7 +67,6 @@ connections are disabled; the private Alpaca integration is only locally verifie
 The source repository remains private. Do not add a Stockbear video link without
 a verified public player URL.
 
-Pixbyt's agent-assisted development workflow is distinct from its implemented
-applet-management capabilities. Only link deployments as working demos after
-checking the actual user journey. The résumé document and phone number are not
+Only link deployments as working demos after checking the actual user journey.
+The résumé document and phone number are not
 published as part of this site update.
