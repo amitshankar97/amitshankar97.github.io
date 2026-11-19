@@ -39,8 +39,9 @@ Experience is based on the owner's supplied résumé. Featured-project source
 links may require repository access; do not describe them as public unless
 visibility has been verified. Pixbyt images in `images/projects/` are optimized,
 public-safe captures of the local Studio sample prototype, not the original
-Go/HTMX app, live data, or hardware output. Stockbear's identity artwork is an
-illustration, not a screenshot. Archived project images are original site assets.
+Go/HTMX app, live data, or hardware output. Stockbear images are authentic public
+production captures of deterministic synthetic examples, not market data or
+investment advice. Archived project images are original site assets.
 
 Pixbyt Studio's public guest sample workshop is available at
 https://pixbyt-studio.vercel.app/. Guest previews/configuration/review/export do
@@ -49,6 +50,12 @@ GitHub bundle saves require a scoped token; the source repository remains privat
 The Pixbyt case study links to the caption-led walkthrough at
 https://pixbyt-studio.vercel.app/#/demo. Keep this stable player route rather than
 hosting a duplicate video or linking an internal media filename.
+
+Stockbear's public synthetic demo is https://stockbear.vercel.app/. All displayed
+prices, volumes, dates, and analytics are generated examples. Hosted personal
+connections are disabled; the private Alpaca integration is only locally verified.
+The source repository remains private. Do not add a Stockbear video link without
+a verified public player URL.
 
 Pixbyt's agent-assisted development workflow is distinct from its implemented
 applet-management capabilities. Only link deployments as working demos after

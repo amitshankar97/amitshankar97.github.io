@@ -123,6 +123,8 @@ footer a{text-decoration:none}
 .project-actions{display:flex;align-items:center;flex-wrap:wrap;gap:24px;margin-top:28px}
 .project-actions .quiet-link{border:0}
 .source-note{font-size:11px;color:var(--muted);margin-top:14px;max-width:650px}
+.demo-disclosure{font-size:13px;font-weight:600;color:var(--accent);margin-top:20px;max-width:650px}
+.feature-copy p.demo-disclosure{color:var(--text);font-size:12px}
 .project-visual{min-height:380px;display:flex;align-items:center;justify-content:center;border-radius:24px;background:linear-gradient(125deg,#20304d,#142034);border:1px solid #35445c;padding:60px 40px}
 .project-visual .pixel-scene{width:min(600px,100%);min-height:300px}
 .project-visual .pixel-device{max-width:510px}
