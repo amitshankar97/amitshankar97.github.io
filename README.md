@@ -46,7 +46,8 @@ production captures of deterministic synthetic examples, not market data or
 investment advice. Archived project images are original site assets.
 
 The case studies are image-led walkthroughs, not single screenshots. Pixbyt adds
-an actual manual-render workbench, configuration editor, and scenario evidence;
+the current conversation/editor workbench with actual manual Pixlet output,
+configuration editor, and scenario evidence;
 the editor/evidence captures are cropped public-safe walkthrough frames without
 the editorial band or player controls. They do not prove paid model critique or
 device delivery. Stockbear shows the public watchlist, ticker chart, and an
