@@ -1,0 +1,56 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.000
+A ticker. A question. A bigger picture.
+Stockbear: a focused market-research project. Real UI captures; formula-generated data.
+
+2
+00:00:05.000 --> 00:00:12.000
+Start with what matters.
+A sortable watchlist leads directly into native AAPL ticker research.
+
+3
+00:00:12.000 --> 00:00:14.400
+Change the question of time.
+One year of generated synthetic history.
+
+4
+00:00:14.400 --> 00:00:16.733
+Choose a range.
+The actual chart switches to three months.
+
+5
+00:00:16.733 --> 00:00:19.200
+A shared benchmark.
+AAPL and SPY relative returns on common generated dates.
+
+6
+00:00:19.200 --> 00:00:21.000
+Daily to weekly.
+Change resolution using native chart controls.
+
+7
+00:00:21.000 --> 00:00:28.000
+The number is only half the story.
+Return, SPY excess,20-session volatility and maximum drawdown with calculation notes. Historical descriptions, not forecasts.
+
+8
+00:00:28.000 --> 00:00:35.000
+Different symbols. Common ground.
+AAPL, MSFT and SPY comparison uses common observation dates and request-driven server rendering.
+
+9
+00:00:35.000 --> 00:00:44.000
+Three paths. One deliberate experience.
+Editorial architecture: ISR renders watchlist/curated tickers ahead; SSR answers selected-symbol requests; client controls refresh without losing context. This is not app UI.
+
+10
+00:00:44.000 --> 00:00:51.000
+Measure. Don't mythologize.
+Native freshness timestamps and Browser Performance API diagnostics. Local observations, not production benchmarks.
+
+11
+00:00:51.000 --> 00:00:55.000
+Research, thoughtfully rendered.
+Stockbear: a project in data, interaction and delivery. Next.js and TypeScript.

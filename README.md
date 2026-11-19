@@ -120,13 +120,17 @@ not proof of paid inference or physical delivery with user credentials.
 Stockbear's public synthetic demo is https://stockbear.vercel.app/. All displayed
 prices, volumes, dates, and analytics are generated examples. Hosted personal
 connections are disabled; the private Alpaca integration is only locally verified.
-The source repository remains private. The approved 52-second synthetic film is
+The source repository remains private. The approved 55-second Remotion synthetic film is
 embedded at https://amitshankar97.github.io/stockbear.html#walkthrough.
 `media/stockbear/` contains only its four approved public-safe deliverables:
-`stockbear-synthetic-public.mp4`, `poster.jpg`, `captions.vtt`, and `transcript.txt`.
+`stockbear-synthetic-8ea71946.mp4`, `stockbear-synthetic-8ea71946.png`,
+`stockbear-synthetic-8ea71946.vtt`, and `stockbear-synthetic-8ea71946.txt`.
+The shared video-hash suffix versions all four deliverables for cache busting.
 The MP4 SHA-256 is
-`588d2152a7a6de8404625f8747dbb0a262cdf3086955ce68fd2081d3fe60e59e`.
-It uses wholly generated synthetic data, not actual market observations.
+`8ea71946ce4cbb0d0dd0a21ad3dc0f416dfd612549d50b5aaa92cb97303a3045`.
+It combines public-interface captures of wholly generated synthetic data with
+editorial architecture animation, not actual market observations. The architecture
+animation is not app UI. Its instrumental music is original; there is no narration.
 Native controls, inline playback, a poster, and metadata-only preloading keep
 playback visitor-initiated. Captions are burned in; the optional English VTT is
 not enabled by default to avoid duplicate text. A plain-text transcript is linked.
