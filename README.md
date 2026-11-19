@@ -30,9 +30,9 @@ respected.
 
 ## Publishing
 
-**This revision is for branch review. The owner has authorized committing and
-pushing the review branch, not merging or deploying it.** The supporting hero
-sentence remains unchanged while wording is under discussion.
+**The résumé-coverage revision is for branch review. The owner has authorized
+committing and pushing the review branch, not merging or deploying it.** The
+supporting hero sentence remains unchanged while wording is under discussion.
 
 The owner has confirmed public-sharing clearance for the supplied Copilot
 Chain-of-thought demo. `media/copilot/` contains the unmodified recording and an
@@ -82,11 +82,16 @@ experience role and before its narrative. Stream Finder, Alexa smart home, and
 GoFish retain their descriptions, stacks, and links inside native disclosures,
 collapsed by default. Expanded projects come first: Foober, Real News, then
 Pokémon in Java. Arizona Catering Hub is last, with its screenshot inside a
-collapsed disclosure. Teams tags reflect explicit résumé evidence (WebSockets,
-ChatGPT, MCP), not an inferred client framework. Azure Commerce technologies
-(C#/.NET Core, Angular, Cosmos DB, Azure Functions) and Seller Insights technologies
-(Node.js, Azure Bot Service, HDInsight, Azure Data Explorer) are owner-confirmed.
-No global skills have been inferred as role-specific technologies.
+collapsed disclosure. Role-specific technology chips reflect owner-confirmed
+résumé content, including Teams' TypeScript/GraphQL/IndexedDB/React worker
+architecture, Azure Commerce's App Service audit deployment, and Seller Insights'
+Bot Framework, Service Bus, Azure AD, HDInsight, Kusto, and Power BI.
+
+Teams' selected outcomes remain visible; an accessible disclosure holds platform
+and delivery depth. The unread-distance catch-up idea is explicitly a proposal,
+not shipped work. The 150-to-5-minute triage agent is distinct from RCA workflows;
+up-to-95% polling-to-push savings apply to some endpoints, not the whole platform.
+The résumé phone number is not published.
 
 Pixbyt Studio is available at https://pixbyt-studio.vercel.app/. It implements
 BYOK model generation, actual isolated Sandbox/Pixlet rendering, model image
