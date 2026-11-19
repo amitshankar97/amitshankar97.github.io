@@ -79,9 +79,18 @@ not proof of paid inference or physical delivery with user credentials.
 Stockbear's public synthetic demo is https://stockbear.vercel.app/. All displayed
 prices, volumes, dates, and analytics are generated examples. Hosted personal
 connections are disabled; the private Alpaca integration is only locally verified.
-The source repository remains private. Do not add a Stockbear video link without
-a verified, approved public player URL. The supplied v2 film is held and is not
-included in this repository or linked by the site.
+The source repository remains private. The approved 52-second synthetic film is
+embedded at https://amitshankar97.github.io/stockbear.html#walkthrough.
+`media/stockbear/` contains only its four approved public-safe deliverables:
+`stockbear-synthetic-public.mp4`, `poster.jpg`, `captions.vtt`, and `transcript.txt`.
+The MP4 SHA-256 is
+`588d2152a7a6de8404625f8747dbb0a262cdf3086955ce68fd2081d3fe60e59e`.
+It uses wholly generated synthetic data, not actual market observations.
+Native controls, inline playback, a poster, and metadata-only preloading keep
+playback visitor-initiated. Captions are burned in; the optional English VTT is
+not enabled by default to avoid duplicate text. A plain-text transcript is linked.
+Never add the rejected v2 film, real-data footage, or neighboring private assets
+to the public site or Git history.
 
 Only link deployments as working demos after checking the actual user journey.
 The résumé document and phone number are not

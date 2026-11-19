@@ -64,6 +64,10 @@ h1{font-size:clamp(42px,5.5vw,74px);line-height:1.13;letter-spacing:-.04em}
 .case-study-capture figcaption{font-size:12px}
 .case-study-capture figcaption span{font-size:11px}
 .walkthrough-capture{margin-block:0 56px}
+.project-walkthrough{margin-bottom:64px}
+.project-walkthrough .section-heading{margin-bottom:16px}
+.project-walkthrough .demo-disclosure{margin:0 0 20px}
+.project-walkthrough video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#080d15;border:1px solid #53617b;border-radius:12px}
 .capture-links{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 28px;margin-top:16px;font-size:12px}
 .pixel-scene{text-align:center;align-self:stretch;display:flex;flex-direction:column;justify-content:center;align-items:center;min-width:0}
 .pixel-device{width:100%;max-width:410px;aspect-ratio:1.95;background:linear-gradient(135deg,#827466,#302d2b 4%,#0b1017 7%,#090d14 94%,#4a4640 96%,#837261);border-radius:17px;padding:18px;position:relative;transform:perspective(1000px) rotateY(-7deg) rotateZ(-3deg);box-shadow:12px 35px 36px #0007}
