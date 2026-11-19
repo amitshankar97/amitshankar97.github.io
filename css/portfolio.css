@@ -86,19 +86,22 @@ figcaption span{display:block;font-size:9px;color:#a8bad4;margin-top:3px}
 .stock-emblem{font-size:180px;font-weight:600;line-height:1.1;letter-spacing:-.04em;color:#c5e3d8;position:relative;display:inline-block}
 .stock-emblem span{font-size:62px;position:absolute;top:10%;right:-50px;color:#91c7c3}
 .earlier-work,.experience{padding-top:112px}
-.archive-feature{display:grid;grid-template-columns:1.15fr 1fr;gap:64px;align-items:center;margin-top:40px;margin-bottom:48px}
-.archive-image{display:block;overflow:hidden;border-radius:14px;background:#202a38;border:1px solid var(--line)}
+.archive-image{display:block;max-width:640px;overflow:hidden;border-radius:14px;background:#202a38;border:1px solid var(--line)}
 .archive-image img{display:block;width:100%;height:auto;max-height:300px;object-fit:cover;object-position:top}
-.archive-feature h3{font-size:27px;letter-spacing:-.03em}
-.archive-feature p{color:var(--muted);font-size:13px;margin:16px 0}
-.archive-feature .project-category{display:block}
-.archive-feature .quiet-link{margin-top:10px}
 .project-list article{display:grid;grid-template-columns:1fr 1.5fr .8fr;gap:40px;align-items:baseline;border-top:1px solid var(--line);padding:25px 0}
 .project-list h3{font-size:15px}
 .project-list p{color:var(--muted);font-size:12px;max-width:480px}
 .project-list a{justify-self:end;font-size:10px}
-.archive-stack{font-size:10px;color:var(--muted);justify-self:end}
-.project-list p .archive-stack{display:block;margin-top:8px}
+.stack-chips{display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0;margin:12px 0 18px}
+.stack-chips li{padding:3px 9px;border:1px solid #42506a;border-radius:6px;color:#c4d2e7;font-size:10px;line-height:1.6}
+.project-list .stack-chips{margin-bottom:0}
+.project-list .collapsed-project{display:block}
+.collapsed-project summary{cursor:pointer;min-height:32px}
+.collapsed-project summary h3{display:inline}
+.collapsed-project summary::marker{color:var(--accent)}
+.archive-entry .stack-chips{margin:12px 0 18px}
+.archive-entry a{display:inline-block;margin-top:16px}
+.archive-entry .archive-image{display:block}
 .section-intro{max-width:620px;color:var(--muted);font-size:13px;margin-bottom:36px}
 .experience-row{display:grid;grid-template-columns:180px 1fr 120px;gap:36px;border-top:1px solid var(--line);padding:28px 0}
 .experience-row>span{font-size:11px;color:var(--muted);padding-top:4px}
@@ -106,6 +109,17 @@ figcaption span{display:block;font-size:9px;color:#a8bad4;margin-top:3px}
 .experience-row h3{font-size:18px;letter-spacing:-.02em}
 .experience-row p{font-size:12px;color:#d0daeb;margin:5px 0}
 .experience-row small{font-size:11px;color:var(--muted)}
+.experience-demo{max-width:460px;margin:20px 0 0 18px}
+.experience-demo>summary{cursor:pointer;padding:6px 0}
+.experience-demo>summary::marker{color:var(--accent)}
+.experience-demo h4{display:inline;margin:0;font-size:12px;font-weight:600}
+.experience-demo>summary>span{display:inline-block;margin-left:12px;font-size:10px;color:var(--muted)}
+.experience-demo>p{margin:10px 0 14px;font-size:11px;color:var(--muted)}
+.experience-demo video{display:block;width:100%;height:auto;aspect-ratio:1018/720;background:#080d15;border:1px solid #53617b;border-radius:8px}
+.experience-demo-description{margin-top:10px;color:var(--muted);font-size:11px}
+.experience-demo-description summary{color:var(--text);cursor:pointer}
+.experience-demo-description p{margin-top:12px}
+@media(max-width:700px){.experience-demo{margin-left:12px}}
 .impact-list{padding-left:17px;margin:18px 0 0;max-width:660px;color:var(--muted);font-size:12px}
 .impact-list li{padding-left:4px;margin:10px 0}
 .impact-list strong{color:var(--text);font-weight:600}

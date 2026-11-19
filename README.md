@@ -1,7 +1,7 @@
 # Amit Shankar's portfolio
 
 Static, dependency-free portfolio published at https://amitshankar97.github.io/.
-The opening positions Amit as an end-to-end product engineer currently building
+The opening positions Amit as an AI-native software engineer currently building
 Microsoft Teams; project and experience copy are grounded in the supplied résumé
 and reviewed project evidence.
 
@@ -29,6 +29,21 @@ respected.
 - Contact uses a direct email link rather than the old third-party contact form.
 
 ## Publishing
+
+**This revision is for branch review. The owner has authorized committing and
+pushing the review branch, not merging or deploying it.** The supporting hero
+sentence remains unchanged while wording is under discussion.
+
+The owner has confirmed public-sharing clearance for the supplied Copilot
+Chain-of-thought demo. `media/copilot/` contains the unmodified recording and an
+optimized WebP poster extracted from its visible progress view. Its player uses
+native controls, inline playback, metadata-only preload, and no autoplay. The
+silent recording is nested under the Microsoft Teams role in a compact,
+indented disclosure, with an optional visual description. Experience copy describes
+contribution without asserting sole ownership. Media clearance does not approve
+publication of this draft.
+The social-preview image still reflects the live version; refresh it only when
+the new headline and supporting copy are approved for publication.
 
 GitHub Pages publishes the root of `master` using the existing legacy Pages
 configuration. Changes must reach that branch to update the public website.
@@ -59,7 +74,19 @@ implementation evidence: Studio uses TypeScript/Vite, Node Vercel Functions,
 Sandbox/Pixlet/Python, and OpenAI; Stockbear uses TypeScript/Next.js/React,
 Recharts, and Zod on Vercel. Do not apply the original Go/HTMX/Postgres Pixbyt
 stack to Studio. Archive entries include known stacks and clearly distinguish
-historical captures/source from unverified current live services.
+historical captures and source from current product demos. Real News links to its
+project website at https://realnewsapp.github.io/.
+
+Technology chips share one informational style, below each project heading or
+experience role and before its narrative. Stream Finder, Alexa smart home, and
+GoFish retain their descriptions, stacks, and links inside native disclosures,
+collapsed by default. Expanded projects come first: Foober, Real News, then
+Pokémon in Java. Arizona Catering Hub is last, with its screenshot inside a
+collapsed disclosure. Teams tags reflect explicit résumé evidence (WebSockets,
+ChatGPT, MCP), not an inferred client framework. Azure Commerce technologies
+(C#/.NET Core, Angular, Cosmos DB, Azure Functions) and Seller Insights technologies
+(Node.js, Azure Bot Service, HDInsight, Azure Data Explorer) are owner-confirmed.
+No global skills have been inferred as role-specific technologies.
 
 Pixbyt Studio is available at https://pixbyt-studio.vercel.app/. It implements
 BYOK model generation, actual isolated Sandbox/Pixlet rendering, model image
