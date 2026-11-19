@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b101b">
-    <meta name="description" content="Pixbyt Studio: build Tidbyt applets with AI, real Pixlet renders, model visual critique, and exact-revision human approval. Try the app or watch the walkthrough.">
+    <meta name="description" content="Inside Pixbyt's applet factory: native Pixlet rendering, scenario checks, actual-pixel model critique, bounded repairs, and human approval of the exact revision.">
     <title>Pixbyt — Amit Shankar</title>
     <link rel="canonical" href="https://amitshankar97.github.io/pixbyt.html">
     <meta property="og:type" content="website"><meta property="og:site_name" content="Amit Shankar">
     <meta property="og:title" content="Pixbyt Studio — Amit Shankar">
-    <meta property="og:description" content="Direct the build. Inspect real renders and model visual review. Approve the exact revision before sending it to your Tidbyt.">
+    <meta property="og:description" content="An applet factory with a visible quality bar: scenario checks, actual-pixel model critique, bounded repairs, and your final approval.">
     <meta property="og:url" content="https://amitshankar97.github.io/pixbyt.html">
     <meta property="og:image" content="https://amitshankar97.github.io/images/projects/pixbyt-studio-desktop.webp">
     <meta property="og:image:alt" content="Pixbyt Studio's public showcase with a WSDOT ferry applet labeled Sample data">
@@ -19,7 +19,7 @@
     <header class="site-header"><a class="brand" href="index.html"><span class="brand-symbol" aria-hidden="true">a<span>.</span></span><span>Amit Shankar</span></a><nav aria-label="Main navigation"><a href="index.html#work">Work</a><a href="index.html#experience">Experience</a><a href="index.html#about">About</a></nav><a class="header-contact" href="mailto:amitarunshankar@gmail.com">Get in touch ↗</a></header>
     <main id="main" class="project-main">
         <a class="back-link" href="index.html#pixbyt-feature">← All projects</a>
-        <section class="project-hero"><h1>Pixbyt.</h1><p class="lead">An applet factory for a little screen. Turn an idea into editable source, real pixel renders, and a result you approve—not just an answer you accept.</p><div class="project-actions"><a class="button" href="https://pixbyt-studio.vercel.app/">Try Studio <span aria-hidden="true">↗</span></a><a class="quiet-link" href="https://pixbyt-studio.vercel.app/#/demo">Watch walkthrough <span aria-hidden="true">↗</span></a><a class="quiet-link" href="https://github.com/amitshankar97/pixbyt-studio">Studio repository ↗</a></div><p class="source-note">Explore and render manual source without signup or an AI key. AI builds use your OpenAI key; sending an approved image uses your personal Tidbyt key. Source: github.com/amitshankar97/pixbyt-studio (private; access requires permission).</p></section>
+        <section class="project-hero"><h1>Pixbyt.</h1><p class="lead">An applet factory for a little screen. Turn an idea into editable source, real pixel renders, and a result you approve—not just an answer you accept.</p><div class="project-actions"><a class="button" href="https://pixbyt-studio.vercel.app/">Try Studio <span aria-hidden="true">↗</span></a><a class="quiet-link" href="https://pixbyt-studio.vercel.app/#/demo">Watch walkthrough <span aria-hidden="true">↗</span></a><a class="quiet-link" href="#quality-gates">Inside the quality gates <span aria-hidden="true">↓</span></a><a class="quiet-link" href="https://github.com/amitshankar97/pixbyt-studio">Studio repository ↗</a></div><p class="source-note">Explore and render manual source without signup or an AI key. AI builds use your OpenAI key; sending an approved image uses your personal Tidbyt key. Source: github.com/amitshankar97/pixbyt-studio (private; access requires permission).</p></section>
         <figure class="product-capture case-study-capture">
             <a href="images/projects/pixbyt-studio-desktop.webp">
                 <picture><source media="(max-width: 640px)" srcset="images/projects/pixbyt-studio-mobile.webp" width="390" height="966"><img src="images/projects/pixbyt-studio-desktop.webp" width="1440" height="856" alt="Pixbyt Studio's public homepage: a rendered WSDOT ferry applet with a Sample data label, curated applet choices, and a Play animation control"></picture>
@@ -29,6 +29,30 @@
         </figure>
         <div class="project-body">
             <section id="approach" class="story-row"><h2>Your direction.<br>Your final say.</h2><div><p>I built Studio for people who want to make something personal for a Tidbyt's 64×32 display without treating generated code as a finished product. Start with an idea or edit Starlark yourself. The workbench keeps source, configuration, quality cases, and run evidence available without putting every control in the way.</p><p>The public showcase offers a ferry board, a Tokyo transit concept, and Jimothy's original pixel art. Play or pause their actual rendered animations. Ferries use sample data; Tokyo is labeled Concept preview.</p></div></section>
+            <section id="quality-gates" class="factory-quality" aria-labelledby="quality-heading">
+                <h2 id="quality-heading">A factory with a quality bar.</h2>
+                <p class="quality-intro">Agents build. Executable gates check. You approve. Follow-up requests use the current source, configuration, cases, and latest diagnostic—not just the original prompt.</p>
+                <ol class="factory-flow" aria-label="Applet factory workflow">
+                    <li>Brief or current edits</li>
+                    <li>Generate or run source</li>
+                    <li>Render &amp; check scenarios</li>
+                    <li>Review pixels &amp; repair</li>
+                    <li>Approve exact revision</li>
+                    <li>Export or send to device</li>
+                </ol>
+                <dl class="quality-gates">
+                    <div><dt>Check the contract.</dt><dd>Validate structured generation, bounded non-secret source/configuration, allowed imports, and quality cases. Normal, empty, long-text, and invalid-config fixtures are required; independently specified fallback expectations make failure states part of the task—not an afterthought.</dd></div>
+                    <div><dt>Render real pixels.</dt><dd>Native Pixlet runs in a network-denied Vercel Sandbox. Every decoded frame must be non-solid, 64×32 WebP, within image and animation limits. Declared same/different cases compare decoded pixels. These checks catch execution and behavioral regressions, not beauty; a previous preview is not a new pass.</dd></div>
+                    <div><dt>Review what it made.</dt><dd>The selected model receives actual scenario images and contact sheets containing every animation frame, plus the brief and source. It must cover every scenario for fulfillment, hierarchy, legibility, contrast, and semantics. Missing or contradictory review cannot pass—and a model's opinion is not a guarantee of taste.</dd></div>
+                    <div><dt>Repair within a budget.</dt><dd>Generated validation errors, render failures, and failed visual findings share <strong>at most two repairs across the whole run</strong>, not two per stage. Exhaustion stops with editable output and evidence retained. Authentication, quota, infrastructure, and cancellation errors stop honestly, without pretending to be code failures or silently switching models.</dd></div>
+                    <div><dt>Release only this revision.</dt><dd>The interface requires current checks and any required image review before your approval. Edits invalidate it. A signed render receipt binds the exact source, configuration, cases, and image; changed or expired payloads cannot push. Receipts expire after 15 minutes. Personal-device sends also check ownership; exporting a bundle is not release authorization.</dd></div>
+                </dl>
+                <div class="quality-paths">
+                    <p><strong>Manual run:</strong> Run preview executes your current source and cases without an AI key or regeneration. Mechanical verification plus your visual inspection does not imply model review.</p>
+                    <p><strong>AI-built release:</strong> generated applets require a current passing image review. After manual edits, Review current image with AI critiques the new pixels without overwriting the code. A missing, failed, or incomplete review cannot authorize release.</p>
+                </div>
+                <details class="quality-detail"><summary>Exact limits &amp; release boundary</summary><p>Output is limited to 200,000 bytes, 300 frames, and three seconds. The receipt protects render integrity; model review and human approval are interface policies, not server-certified taste or identity. Tidbyt API acceptance is not proof of physical receipt.</p></details>
+            </section>
             <figure class="product-capture case-study-capture walkthrough-capture">
                 <a href="images/projects/pixbyt-render-workbench.webp"><img src="images/projects/pixbyt-render-workbench.webp" width="1440" height="1325" loading="lazy" alt="Studio after a manual-source run: actual Pixlet output reads SHIP SMALL, with seven scenarios available and human approval still unchecked"></a>
                 <figcaption>From source to a real render.<span>An actual manual-source Pixlet run, with human approval still waiting.</span></figcaption>
@@ -38,7 +62,7 @@
                 <a href="images/projects/pixbyt-config.webp"><img src="images/projects/pixbyt-config.webp" width="1280" height="800" loading="lazy" alt="Studio's Config JSON editor containing message MAKE SPACE and font 5x8, with Starlark source and Quality cases tabs and a Render and verify source control"></a>
                 <figcaption>The configuration surface, not a mockup.<span>An actual editor frame from the recorded manual-source walkthrough, showing the message and font settings.</span></figcaption>
             </figure>
-            <section class="story-row"><h2>Direct the build.<br>Inspect the evidence.</h2><div><ol><li><strong>Build:</strong> describe an applet and use your own OpenAI key. Choose GPT-5.4 mini, GPT-5.4, or an exact compatible model ID; source, configuration, and quality cases remain editable.</li><li><strong>Render &amp; test:</strong> actual Pixlet execution in an isolated Vercel Sandbox checks the selected configuration and normal, empty, long-text, and invalid-config scenarios.</li><li><strong>Visual review:</strong> the selected model receives the actual scenario images, including all-frame contact sheets for animations, and critiques the result. Validation, rendering, and visual findings share a two-repair budget.</li><li><strong>Approve:</strong> a human reviews the exact revision. Edits invalidate approval; the release gate checks a signed render receipt rather than trusting a screenshot.</li><li><strong>Send:</strong> explicitly push the approved image with your personal Tidbyt key and device-ownership checks.</li></ol></div></section>
+            <section class="story-row"><h2>Evidence you<br>can inspect.</h2><div><p>The preview is only one part of the review. Scenario images expose what changes when inputs are missing, too long, or invalid. A selected configuration sits alongside those cases so you can judge the pixels you are actually about to approve.</p><p>Checks, run history, and exported evidence make the outcome inspectable. After edits, earlier evidence stays historical; it cannot authorize the next release.</p></div></section>
             <figure class="product-capture case-study-capture walkthrough-capture">
                 <a href="images/projects/pixbyt-scenarios.webp"><img src="images/projects/pixbyt-scenarios.webp" width="1280" height="800" loading="lazy" alt="Actual Pixlet scenario evidence: selected MAKE SPACE output beside SHIP SMALL normal and empty cases and a truncated long-text case, with seven scenarios listed"></a>
                 <figcaption>Review the cases, not just the happy path.<span>Actual manual-source rendering evidence: selected configuration, normal, empty, and long-text outputs.</span></figcaption>

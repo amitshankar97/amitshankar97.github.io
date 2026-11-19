@@ -69,6 +69,14 @@ are offline, without hosted scheduling or live feeds. The older guest workshop's
 explicit GitHub bundle save is separate from project storage, not automatic sync.
 The source repository remains private.
 
+`pixbyt.html#quality-gates` explains the applet factory's validation contract,
+native render/scenario verification, actual-pixel model critique, shared repair
+budget, and exact-revision human release gate. Keep manual key-free runs distinct
+from the current image review required for AI-built releases. Exported evidence
+and historical previews are not reusable release authorization; subjective model
+critique does not guarantee taste. These gate descriptions are product behavior,
+not claims of paid-model or physical-device end-to-end verification.
+
 The Pixbyt case study links to the captioned walkthrough at
 https://pixbyt-studio.vercel.app/#/demo for a look at applet source and rendering.
 Keep this stable player route rather than hosting a duplicate or linking an

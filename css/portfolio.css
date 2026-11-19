@@ -144,6 +144,22 @@ footer a{text-decoration:none}
 .story-row ul,.story-row ol{padding-left:20px;margin:0;color:var(--muted);font-size:13px}
 .story-row li{padding-left:6px;margin-bottom:12px}
 .story-row strong{color:var(--text);font-weight:600}
+.factory-quality{border-top:1px solid var(--line);padding:36px 0 56px}
+.factory-quality h2{font-size:clamp(24px,3vw,34px);line-height:1.3;letter-spacing:-.025em}
+.quality-intro{max-width:680px;margin-top:18px;color:var(--muted);font-size:14px}
+.factory-flow{display:flex;flex-wrap:wrap;gap:12px 28px;padding:24px 0;margin:28px 0 0;border-block:1px solid var(--line);list-style:none}
+.factory-flow li{flex:1 1 130px;font-size:12px;color:var(--accent);line-height:1.6}
+.quality-gates{margin:12px 0 0}
+.quality-gates>div{display:grid;grid-template-columns:220px 1fr;gap:32px;padding:22px 0;border-bottom:1px solid var(--line)}
+.quality-gates dt{font-weight:600;font-size:15px}
+.quality-gates dd{margin:0;max-width:700px;color:var(--muted);font-size:13px}
+.quality-gates strong,.quality-paths strong{color:var(--text);font-weight:600}
+.quality-paths{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:28px}
+.quality-paths p{font-size:13px;color:var(--muted)}
+.quality-detail{max-width:760px;margin-top:24px;color:var(--muted);font-size:12px}
+.quality-detail summary{cursor:pointer;color:var(--text)}
+.quality-detail p{margin-top:12px}
+@media(max-width:700px){.quality-gates>div{grid-template-columns:1fr;gap:8px}.factory-flow{gap:16px 24px}.factory-flow li{flex-basis:40%}.quality-paths{grid-template-columns:1fr;gap:16px}.factory-quality{padding:28px 0 40px}}
 .next-project{border-top:1px solid var(--line);padding:48px 0 64px;display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted)}
 .next-project a{font-size:24px;color:var(--text);text-decoration:none}
 @media(prefers-reduced-motion:no-preference){.pixel-device{animation:device-arrive 1.2s var(--ease) both}@keyframes device-arrive{from{transform:perspective(1000px) rotateY(0) rotateZ(0) translateY(14px)}to{transform:perspective(1000px) rotateY(-7deg) rotateZ(-3deg)}}}
