@@ -45,6 +45,21 @@ Stockbear images are authentic public
 production captures of deterministic synthetic examples, not market data or
 investment advice. Archived project images are original site assets.
 
+The case studies are image-led walkthroughs, not single screenshots. Pixbyt adds
+an actual manual-render workbench, configuration editor, and scenario evidence;
+the editor/evidence captures are cropped public-safe walkthrough frames without
+the editorial band or player controls. They do not prove paid model critique or
+device delivery. Stockbear shows the public watchlist, ticker chart, and an
+AAPL/MSFT/QQQ comparison. Each capture links to its full-size WebP and has a
+descriptive caption. New images are lazy-loaded below the opening.
+
+Delivery stacks are checked against the current project manifests and reviewed
+implementation evidence: Studio uses TypeScript/Vite, Node Vercel Functions,
+Sandbox/Pixlet/Python, and OpenAI; Stockbear uses TypeScript/Next.js/React,
+Recharts, and Zod on Vercel. Do not apply the original Go/HTMX/Postgres Pixbyt
+stack to Studio. Archive entries include known stacks and clearly distinguish
+historical captures/source from unverified current live services.
+
 Pixbyt Studio is available at https://pixbyt-studio.vercel.app/. It implements
 BYOK model generation, actual isolated Sandbox/Pixlet rendering, model image
 critique with a shared two-repair budget, exact-revision human approval, and
@@ -65,7 +80,8 @@ Stockbear's public synthetic demo is https://stockbear.vercel.app/. All displaye
 prices, volumes, dates, and analytics are generated examples. Hosted personal
 connections are disabled; the private Alpaca integration is only locally verified.
 The source repository remains private. Do not add a Stockbear video link without
-a verified public player URL.
+a verified, approved public player URL. The supplied v2 film is held and is not
+included in this repository or linked by the site.
 
 Only link deployments as working demos after checking the actual user journey.
 The résumé document and phone number are not

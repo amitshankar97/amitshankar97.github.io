@@ -63,6 +63,7 @@ h1{font-size:clamp(42px,5.5vw,74px);line-height:1.13;letter-spacing:-.04em}
 .case-study-capture{max-width:1100px;margin-inline:auto}
 .case-study-capture figcaption{font-size:12px}
 .case-study-capture figcaption span{font-size:11px}
+.walkthrough-capture{margin-block:0 56px}
 .capture-links{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 28px;margin-top:16px;font-size:12px}
 .pixel-scene{text-align:center;align-self:stretch;display:flex;flex-direction:column;justify-content:center;align-items:center;min-width:0}
 .pixel-device{width:100%;max-width:410px;aspect-ratio:1.95;background:linear-gradient(135deg,#827466,#302d2b 4%,#0b1017 7%,#090d14 94%,#4a4640 96%,#837261);border-radius:17px;padding:18px;position:relative;transform:perspective(1000px) rotateY(-7deg) rotateZ(-3deg);box-shadow:12px 35px 36px #0007}
@@ -93,6 +94,7 @@ figcaption span{display:block;font-size:9px;color:#a8bad4;margin-top:3px}
 .project-list p{color:var(--muted);font-size:12px;max-width:480px}
 .project-list a{justify-self:end;font-size:10px}
 .archive-stack{font-size:10px;color:var(--muted);justify-self:end}
+.project-list p .archive-stack{display:block;margin-top:8px}
 .section-intro{max-width:620px;color:var(--muted);font-size:13px;margin-bottom:36px}
 .experience-row{display:grid;grid-template-columns:180px 1fr 120px;gap:36px;border-top:1px solid var(--line);padding:28px 0}
 .experience-row>span{font-size:11px;color:var(--muted);padding-top:4px}
